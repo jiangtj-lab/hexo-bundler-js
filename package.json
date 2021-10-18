@@ -1,0 +1,41 @@
+{
+  "name": "@jiangtj/hexo-bundler-js",
+  "version": "0.0.4",
+  "description": "🍀 a hexo extend to inject any code into theme.",
+  "main": "index.js",
+  "scripts": {
+    "eslint": "eslint .",
+    "test": "mocha test/index.js",
+    "p": "yarn --proxy=http://localhost:1080"
+  },
+  "files": [
+    "index.js"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jiangtj-lab/hexo-bundler-js.git"
+  },
+  "keywords": [
+    "hexo",
+    "hexo-plugin"
+  ],
+  "author": "Mr.J",
+  "license": "LGPL-3.0",
+  "bugs": {
+    "url": "https://github.com/jiangtj-lab/hexo-bundler-js/issues"
+  },
+  "homepage": "https://github.com/jiangtj-lab/hexo-bundler-js#readme",
+  "dependencies": {
+    "terser": "^5.0.0"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "eslint": "^7.0.0",
+    "eslint-config-hexo": "^4.1.0",
+    "hexo": "^5.0.0",
+    "mocha": "^8.0.1"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org"
+  }
+}
